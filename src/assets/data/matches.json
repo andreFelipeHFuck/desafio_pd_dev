@@ -1,0 +1,404 @@
+{
+  "matches": [
+    {
+      "match_id": "match_001",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "group_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5",
+        "group": 1
+      },
+      "date": {
+        "expected": "2025-07-30T14:00:00",
+        "end": "2025-07-30T14:45:00"
+      },
+      "player_1": {
+        "uid": "player_marcio",
+        "name": "Marcio Hashimoto",
+        "photoSmall": "https://robohash.org/Marcio?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_luiz",
+        "name": "Luiz Augusto",
+        "photoSmall": "https://robohash.org/Luiz?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_marcio"
+        },
+        "player_1": {
+          "uid": "player_marcio",
+          "set1": 18,
+          "set2": 11,
+          "set3": 12
+        },
+        "player_2": {
+          "uid": "player_luiz",
+          "set1": 16,
+          "set2": 8,
+          "set3": 10
+        }
+      }
+    },
+    {
+      "match_id": "match_002",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "group_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5",
+        "group": 1
+      },
+      "date": {
+        "expected": "2025-07-30T15:00:00",
+        "end": "2025-07-30T15:35:00"
+      },
+      "player_1": {
+        "uid": "player_sergio",
+        "name": "Sergio Tadao",
+        "photoSmall": "https://robohash.org/Sergio?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_marcio",
+        "name": "Marcio Hashimoto",
+        "photoSmall": "https://robohash.org/Marcio?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_sergio"
+        },
+        "player_1": {
+          "uid": "player_sergio",
+          "set1": 11,
+          "set2": 7,
+          "set3": 11,
+          "set4": 7,
+          "set5": 11
+        },
+        "player_2": {
+          "uid": "player_marcio",
+          "set1": 4,
+          "set2": 11,
+          "set3": 8,
+          "set4": 11,
+          "set5": 4
+        }
+      }
+    },
+    {
+      "match_id": "match_003",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "elimination_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5"
+      },
+      "date": {
+        "expected": "2025-07-31T10:00:00",
+        "end": "2025-07-31T10:28:00"
+      },
+      "player_1": {
+        "uid": "player_carlos",
+        "name": "Carlos Mendes",
+        "photoSmall": "https://robohash.org/Carlos?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_roberto",
+        "name": "Roberto Silva",
+        "photoSmall": "https://robohash.org/Roberto?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_carlos"
+        },
+        "player_1": {
+          "uid": "player_carlos",
+          "set1": 11,
+          "set2": 11,
+          "set3": 11
+        },
+        "player_2": {
+          "uid": "player_roberto",
+          "set1": 3,
+          "set2": 5,
+          "set3": 7
+        }
+      }
+    },
+    {
+      "match_id": "match_004",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "elimination_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5"
+      },
+      "date": {
+        "expected": "2025-07-31T14:00:00",
+        "end": "2025-07-31T14:55:00"
+      },
+      "player_1": {
+        "uid": "player_marcio",
+        "name": "Marcio Hashimoto",
+        "photoSmall": "https://robohash.org/Marcio?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_carlos",
+        "name": "Carlos Mendes",
+        "photoSmall": "https://robohash.org/Carlos?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_marcio"
+        },
+        "player_1": {
+          "uid": "player_marcio",
+          "set1": 8,
+          "set2": 9,
+          "set3": 11,
+          "set4": 11,
+          "set5": 11
+        },
+        "player_2": {
+          "uid": "player_carlos",
+          "set1": 11,
+          "set2": 11,
+          "set3": 9,
+          "set4": 8,
+          "set5": 9
+        }
+      }
+    },
+    {
+      "match_id": "match_005",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "friendly_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5"
+      },
+      "date": {
+        "expected": "2025-08-01T16:00:00",
+        "end": "2025-08-01T16:40:00"
+      },
+      "player_1": {
+        "uid": "player_ana",
+        "name": "Ana Paula",
+        "photoSmall": "https://robohash.org/Ana?set=set4&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_beatriz",
+        "name": "Beatriz Costa",
+        "photoSmall": "https://robohash.org/Beatriz?set=set4&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_beatriz"
+        },
+        "player_1": {
+          "uid": "player_ana",
+          "set1": 5,
+          "set2": 11,
+          "set3": 7,
+          "set4": 8
+        },
+        "player_2": {
+          "uid": "player_beatriz",
+          "set1": 11,
+          "set2": 9,
+          "set3": 11,
+          "set4": 11
+        }
+      }
+    },
+    {
+      "match_id": "match_006",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "group_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5",
+        "group": 2
+      },
+      "date": {
+        "expected": "2025-08-02T09:00:00",
+        "end": "2025-08-02T09:50:00"
+      },
+      "player_1": {
+        "uid": "player_pedro",
+        "name": "Pedro Oliveira",
+        "photoSmall": "https://robohash.org/Pedro?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_marcio",
+        "name": "Marcio Hashimoto",
+        "photoSmall": "https://robohash.org/Marcio?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_pedro"
+        },
+        "player_1": {
+          "uid": "player_pedro",
+          "set1": 11,
+          "set2": 11,
+          "set3": 9,
+          "set4": 11
+        },
+        "player_2": {
+          "uid": "player_marcio",
+          "set1": 6,
+          "set2": 7,
+          "set3": 11,
+          "set4": 8
+        }
+      }
+    },
+    {
+      "match_id": "match_007",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "elimination_match",
+      "competition": {
+        "comp_id": "comp_456",
+        "edition_id": "3",
+        "round_id": "5"
+      },
+      "date": {
+        "expected": "2025-08-03T18:00:00",
+        "end": "2025-08-03T18:45:00"
+      },
+      "player_1": {
+        "uid": "player_fernando",
+        "name": "Fernando Santos",
+        "photoSmall": "https://robohash.org/Fernando?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_gustavo",
+        "name": "Gustavo Lima",
+        "photoSmall": "https://robohash.org/Gustavo?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_fernando"
+        },
+        "player_1": {
+          "uid": "player_fernando",
+          "set1": 11,
+          "set2": 8,
+          "set3": 11,
+          "set4": 9,
+          "set5": 12
+        },
+        "player_2": {
+          "uid": "player_gustavo",
+          "set1": 9,
+          "set2": 11,
+          "set3": 7,
+          "set4": 11,
+          "set5": 10
+        }
+      }
+    },
+    {
+      "match_id": "match_008",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "friendly_match",
+      "competition": {
+        "comp_id": "comp_123",
+        "edition_id": "3",
+        "round_id": "5"
+      },
+      "date": {
+        "expected": "2025-08-04T11:00:00",
+        "end": "2025-08-04T11:20:00"
+      },
+      "player_1": {
+        "uid": "player_julia",
+        "name": "Julia Martins",
+        "photoSmall": "https://robohash.org/Julia?set=set4&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_camila",
+        "name": "Camila Souza",
+        "photoSmall": "https://robohash.org/Camila?set=set4&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_camila"
+        },
+        "player_1": {
+          "uid": "player_julia",
+          "set1": 11,
+          "set2": 9,
+          "set3": 8
+        },
+        "player_2": {
+          "uid": "player_camila",
+          "set1": 13,
+          "set2": 11,
+          "set3": 11
+        }
+      }
+    },
+    {
+      "match_id": "match_009",
+      "sport_id": "table_tennis",
+      "status_id": "END",
+      "matchType": "group_match",
+      "competition": {
+        "comp_id": "comp_789",
+        "edition_id": "3",
+        "round_id": "5",
+        "group": 3
+      },
+      "date": {
+        "expected": "2025-08-05T13:30:00",
+        "end": "2025-08-05T14:15:00"
+      },
+      "player_1": {
+        "uid": "player_rafael",
+        "name": "Rafael Moreira",
+        "photoSmall": "https://robohash.org/Rafael?set=set1&size=150x150"
+      },
+      "player_2": {
+        "uid": "player_daniel",
+        "name": "Daniel Ferreira",
+        "photoSmall": "https://robohash.org/Daniel?set=set1&size=150x150"
+      },
+      "result": {
+        "winner": {
+          "uid": "player_rafael"
+        },
+        "player_1": {
+          "uid": "player_rafael",
+          "set1": 11,
+          "set2": 9,
+          "set3": 11,
+          "set4": 11
+        },
+        "player_2": {
+          "uid": "player_daniel",
+          "set1": 7,
+          "set2": 11,
+          "set3": 5,
+          "set4": 8
+        }
+      }
+    }
+  ]
+}

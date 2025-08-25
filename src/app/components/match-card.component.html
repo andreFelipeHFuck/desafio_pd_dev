@@ -1,0 +1,81 @@
+<div class="match">
+  <div class="match-card">
+    <div class="match-card__header">
+      <div class="public">
+        <h3>
+          <b>{{ formatDateShort(match.date.expected) }}</b>
+        </h3>
+        <h4>{{ formatWeekday(match.date.expected) | titlecase }}</h4>
+      </div>
+    </div>
+    <div class="match-card__content">
+      <div class="edition">
+        @if (match.competition?.edition_id) {
+        <h4>Edição: {{ match.competition?.edition_id }}</h4>
+        } @if (match.competition?.round_id) {
+        <h4>&nbsp;| Rodada: {{ match.competition?.round_id }}</h4>
+        }
+      </div>
+      <div class="players">
+        <div class="p1">
+          <div class="player__vertical">
+            @if (isPlayer1Winner()) {
+            <div class="player__vertical__victory-icon-left">
+              <span class="check-icon">✓</span>
+            </div>
+            }
+            <img
+              class="player__vertical__img"
+              [class.player__vertical__winner-img]="isPlayer1Winner()"
+              [src]="match.player_1.photoSmall"
+              [alt]="match.player_1.name"
+            />
+            <h4
+              class="player__vertical__text"
+              [class.player__vertical__winner-text]="isPlayer1Winner()"
+            >
+              {{ match.player_1.name }}
+            </h4>
+          </div>
+        </div>
+        <h3 class="vs">
+          <b>VS</b>
+        </h3>
+        <div class="p2">
+          <div class="player__vertical">
+            <img
+              class="player__vertical__img"
+              [class.player__vertical__winner-img]="isPlayer2Winner()"
+              [src]="match.player_2.photoSmall"
+              [alt]="match.player_2.name"
+            />
+            <h4
+              class="player__vertical__text"
+              [class.player__vertical__winner-text]="isPlayer2Winner()"
+            >
+              {{ match.player_2.name }}
+            </h4>
+            @if (isPlayer2Winner()) {
+            <div class="player__vertical__victory-icon-right">
+              <span class="check-icon">✓</span>
+            </div>
+            }
+          </div>
+        </div>
+      </div>
+      <h3 class="scores">
+        <b>{{ formatScores() }}</b>
+      </h3>
+    </div>
+    <div class="match-card__footer">
+      <button class="simple-action-btn">
+        <h3>
+          <b>+ info</b>
+        </h3>
+      </button>
+      <button class="simple-action-btn">
+        <h3><b>H2H</b></h3>
+      </button>
+    </div>
+  </div>
+</div>

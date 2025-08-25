@@ -1,0 +1,26 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.matches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
