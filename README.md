@@ -10,7 +10,7 @@ Certifique-se de que estará com a aplicação rodando e com o Figma já prepara
 
 ```bash
 # 1. Clonar o projeto
-git clone [URL]
+git clone https://github.com/elsonsilva/desafio_pd_dev.git
 
 # 2. Entrar na pasta
 cd challenge-01
