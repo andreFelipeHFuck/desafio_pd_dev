@@ -30,8 +30,14 @@ http://localhost:4200
 ```
 src/
 ├── app/
+│   ├── app.component.html          ← Template principal
+│   ├── app.component.css           ← Estilos do componente principal
+│   ├── app.component.ts            ← Lógica do componente principal
+│   ├── app.config.ts               ← Configuração da aplicação
 │   ├── components/
-│   │   └── match-card.component.ts  ← TRABALHE AQUI!
+│   │   ├── match-card.component.html  ← TRABALHE AQUI! (Template)
+│   │   ├── match-card.component.scss  ← TRABALHE AQUI! (Estilos)
+│   │   └── match-card.component.ts    ← TRABALHE AQUI! (Lógica)
 │   ├── models/
 │   │   └── match.model.ts          ← Tipos TypeScript
 │   └── services/
