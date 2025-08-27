@@ -13,7 +13,7 @@ Certifique-se de que estará com a aplicação rodando e com o Figma já prepara
 git clone https://github.com/elsonsilva/desafio_pd_dev.git
 
 # 2. Entrar na pasta
-cd challenge-01
+cd desafio_pd_dev
 
 # 3. Instalar dependências
 npm install
