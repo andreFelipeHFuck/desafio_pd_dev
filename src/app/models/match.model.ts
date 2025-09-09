@@ -3,7 +3,6 @@ export interface Player {
   name: string;
   photoSmall: string;
 }
-
 export interface Match {
   match_id: string;
   sport_id: string;
@@ -42,4 +41,9 @@ export interface Match {
       set5?: number;
     };
   };
+}
+
+export enum PlayerPosition {
+  Right,
+  Left
 }

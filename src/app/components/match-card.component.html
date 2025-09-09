@@ -95,7 +95,11 @@
           </app-edition>
         }
 
-      <app-players></app-players>
+      <app-players
+          [player1]="match.player_1"
+          [player2]="match.player_2"
+          [winner]="match.result.winner.uid"
+      ></app-players>
       <app-set></app-set>
     </div>
 

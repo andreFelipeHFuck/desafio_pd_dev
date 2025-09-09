@@ -2,26 +2,38 @@
         <figure class="profile-image">
             
             <div class="profile-image">
-                <div class="trophy trophy__player2">
-                    <img 
-                        class="trophy-img"
-                        src="trofeu.svg" 
-                        alt=""
-                    >
-                </div>
+                @if (isWinner()) {
+                    <div 
+                        class="trophy"
+                        [class.trophy__player1]="isPlayerPositionRight()"
+                        [class.trophy__player2]="isPlayerPositionLeft()">
+                        <img 
+                            class="trophy-img"
+                            src="trofeu.svg" 
+                            alt=""
+                        >
+                    </div>
+                }
 
-
-                <div class="profile-winner profile-winner__player1 profile-winner__player2"></div>
+                @if (isWinner()) {
+                    <div 
+                        class="profile-winner profile-winner__player1"
+                        [class.profile-winner__player1]="isPlayerPositionRight()"
+                        [class.profile-winner__player2]="isPlayerPositionLeft()">
+                    </div>
+                }
     
                 <img  
                 class="user-image"
-                src="https://robohash.org/Marcio?set=set1&size=150x150" 
+                [class.user-image__player1]="isPlayerPositionRight()"
+                [class.user-image__player2]="isPlayerPositionLeft()"
+                [src]="player().photoSmall"
                 alt=""
                 >
             </div>
             
             <figcaption>
-                André Felipe Fuck 
+                {{ player().name }}
             </figcaption>
         </figure>
 

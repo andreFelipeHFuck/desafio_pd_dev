@@ -1,12 +1,20 @@
 <section class="players">
      <div class="players-image">
-        <app-profile></app-profile>
+        <app-profile 
+            [player]="player1()"
+            [isWinner]="winner() === player1().uid"
+            [position]="player1Position">
+        </app-profile>
     
         <div class="vs">
             <h3>VS</h3>
         </div>
     
-        <app-profile></app-profile>
+        <app-profile 
+            [player]="player2()"
+            [isWinner]="winner() === player2().uid"
+            [position]="player2Position">
+        </app-profile>
     </div>
 
 
