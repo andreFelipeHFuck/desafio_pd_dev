@@ -12,7 +12,6 @@ import { SetComponent } from '../set/set.component';
     standalone: true,
     imports: [
     CommonModule,
-    TitleCasePipe,
     MatchCardHeaderComponent,
     MatchCardFooterComponent,
     PlayersComponent,
@@ -24,26 +23,6 @@ import { SetComponent } from '../set/set.component';
 })
 export class MatchCardComponent {
   @Input() match!: Match;
-
-  formatDate(dateString: string): string {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('pt-BR');
-  }
-
-  formatDateShort(dateString: string): string {
-    if (!dateString) return '';
-    const date = new Date(dateString);
-    const day = date.getDate().toString().padStart(2, '0');
-    const month = date.toLocaleDateString('pt-BR', { month: 'short' });
-    const year = date.getFullYear();
-    return `${day}/${month.toLowerCase()}/${year}`;
-  }
-
-  formatWeekday(dateString: string): string {
-    if (!dateString) return '';
-    const date = new Date(dateString);
-    return date.toLocaleDateString('pt-BR', { weekday: 'long' });
-  }
 
   formatScores(): string {
     const result = this.match.result;

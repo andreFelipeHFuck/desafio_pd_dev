@@ -9,30 +9,25 @@
                         [class.trophy__player2]="isPlayerPositionLeft()">
                         <img 
                             class="trophy-img"
-                            src="trofeu.svg" 
+                            src="trofeu.png" 
                             alt=""
                         >
                     </div>
                 }
 
-                @if (isWinner()) {
-                    <div 
-                        class="profile-winner profile-winner__player1"
-                        [class.profile-winner__player1]="isPlayerPositionRight()"
-                        [class.profile-winner__player2]="isPlayerPositionLeft()">
-                    </div>
-                }
-    
+              
+
                 <img  
                 class="user-image"
-                [class.user-image__player1]="isPlayerPositionRight()"
-                [class.user-image__player2]="isPlayerPositionLeft()"
+                [class.user-image__winner]="isWinner()"
+                [class.user-image__loser]="!isWinner()"
                 [src]="player().photoSmall"
                 alt=""
                 >
             </div>
             
-            <figcaption>
+            <figcaption
+            [class.user-name-winner]="isWinner()">
                 {{ player().name }}
             </figcaption>
         </figure>

@@ -1,20 +1,22 @@
 <div class="container">
   <h1>Jogos de Tênis de Mesa</h1>
 
-  <app-match-card [match]="matches[0]"></app-match-card>
+  @if (loading) {
 
-
-  <!--
-    @if (loading) {
     <p>Carregando jogos...</p>
-    } @if (error) {
+
+  } @if (error) {
+
     <p class="error">Erro ao carregar jogos!</p>
-    } @if (!loading && !error) {
+
+  } @if (!loading && !error) {
+
     <div class="matches">
       @for (match of matches; track match.match_id) {
-      <app-match-card [match]="match"></app-match-card>
+        <app-match-card [match]="match"></app-match-card>
       }
     </div>
-    }
-  -->
+    
+  }
+
 </div>

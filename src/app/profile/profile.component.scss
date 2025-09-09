@@ -11,14 +11,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-     margin: 0;
+    margin: 0;
 }
 
 .trophy{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: $hard-blue;
+    background-color: $green;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -44,24 +44,23 @@
 .user-image{
     background-color: $white;
     border-radius: 50%;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     z-index: 2;
 }
 
-.user-image__player1{
-    border: solid 3px $orange;
+.user-image__winner{
+    border: solid 3.5px $green;
 }
 
-.user-image__player2{
-    border: solid 3px $green;
+.user-image__loser{
+    border: solid 3.5px $orange;
 }
 
 .profile-winner{
-    box-shadow: 0px 0px 25px $orange;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     z-index: 1;
 }
@@ -74,13 +73,19 @@
     box-shadow: 0px 0px 25px $green;
 }
 
+.user-name-winner{
+    color: $green;
+    font-weight: 800;
+}
+
 figcaption{
     color: $black;
     font-family: $font-inter;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 14px;
     text-align: center;
     font-weight: 400;
     z-index: 1;
     width: 7rem;
+    height: 2rem;
 }

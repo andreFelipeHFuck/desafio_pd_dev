@@ -23,7 +23,9 @@ export class MatchCardHeaderComponent {
     
     const date: Date = new Date(dateString);
 
-    const day = date.getDay().toString().padStart(2, '0');
+    console.log(date.toLocaleDateString('pt-BR', {day: '2-digit'}));
+
+    const day = date.toLocaleDateString('pt-BR', {day: '2-digit'});
     const mount = this.formatMount(date);
     const year = date.getFullYear();
 
