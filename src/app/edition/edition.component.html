@@ -1,11 +1,11 @@
 <div class="edition">
     <h4>
-        Edition: 3
+        Edition: {{ !editionId() ? '' : editionId() }}
     </h4>
 
     <div class="line-vertical"></div>
 
     <h4>
-        Round: 3
+        Round: {{ !roundId() ? '' : roundId() }}
     </h4>
 </div>

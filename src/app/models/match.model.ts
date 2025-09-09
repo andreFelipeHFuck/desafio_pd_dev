@@ -13,7 +13,7 @@ export interface Match {
     comp_id: string;
     edition_id: string;
     round_id: string;
-    group?: number; // 
+    group?: number;  
   };
   date: {
     expected: string;
