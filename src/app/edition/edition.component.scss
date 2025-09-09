@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.edition{
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+    margin-top: 5px; 
+    gap: 15px;
+}
+
+.line-vertical{
+    background-color: $grey;
+    width: 2px;
+    height: 25px;
+}
+
+h4{
+    color: $grey;
+    font-size: 12px;
+}

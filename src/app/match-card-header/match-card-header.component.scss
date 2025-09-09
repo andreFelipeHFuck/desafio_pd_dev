@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.match-card__header{
+    align-items: center;
+    background-color: $hard-blue;
+    border-radius: 10px 10px 0px 0px;
+    border: solid 2px $grey;
+    border-bottom: none;
+    color: $white;
+    display: flex;
+    text-align: center;
+    font-family: $font-lexend;
+    flex-direction: column;
+    width: 20rem;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

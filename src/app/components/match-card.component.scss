@@ -1,3 +1,27 @@
+@import '../../variables';
+
+.match {
+  background-color: $white;
+}
+
+.match-card{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.match-card__content{
+  align-items: center;
+  border-right:  solid 2px $grey;
+  border-left:  solid 2px $grey;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+
+/*
 .match {
   width: 100%;
   max-width: 320px;
@@ -180,3 +204,4 @@
   margin: 0;
   font-size: 14px;
 }
+*/

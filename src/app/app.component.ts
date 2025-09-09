@@ -3,11 +3,20 @@ import { CommonModule } from '@angular/common';
 import { MatchCardComponent } from './components/match-card.component';
 import { MatchService } from './services/match.service';
 import { Match } from './models/match.model';
+import { ButtonComponent } from './button/button.component';
+import { MatchCardHeaderComponent } from './match-card-header/match-card-header.component'
+import { MatchCardFooterComponent } from './match-card-footer/match-card-footer.component'
 
 @Component({
     selector: 'app-root',
     standalone: true,
-    imports: [CommonModule, MatchCardComponent],
+    imports: [
+      CommonModule, 
+      MatchCardComponent,
+      ButtonComponent,
+      MatchCardHeaderComponent,
+      MatchCardFooterComponent
+    ],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })

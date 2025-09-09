@@ -1,0 +1,28 @@
+@import '../../variables';
+
+.match-card__footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+    border:  solid 2px $grey;
+    border-top: none;
+    width: 20rem;
+}
+
+.line-horizontal{
+    background-color: $grey;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 20rem;
+}
+
+.footer-btn-group{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}

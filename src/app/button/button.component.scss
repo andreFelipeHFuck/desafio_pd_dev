@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.action-btn{
+    align-items: center;
+    background-color: $soft-blue;
+    border-radius: 10px;  
+    border: none; 
+    color: $hard-blue;
+    cursor: pointer; 
+    text-align: center;
+    margin-left: 1rem;
+    padding: 7px;
+    width: 7rem;
+}
+
+.action-btn:hover{
+    background-color: $hard-blue;
+    color: $soft-blue;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: $font-lexend;
+    font-size: 20px;
+}
