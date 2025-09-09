@@ -100,7 +100,7 @@
           [player2]="match.player_2"
           [winner]="match.result.winner.uid"
       ></app-players>
-      <app-set></app-set>
+      <app-set [scores]="formatScores()"></app-set>
     </div>
 
     <app-match-card-footer></app-match-card-footer>

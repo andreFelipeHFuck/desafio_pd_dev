@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-set',
@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './set.component.scss'
 })
 export class SetComponent {
+  scores = input.required<string>();
 
 }
